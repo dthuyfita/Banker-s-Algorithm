@@ -45,7 +45,7 @@ def isSafe(proc, avail, maxx, alloc):
                                 # nếu proc này thỏa mãn Need <= Work
                                 if (j == R - 1):
                                 
-                                        # Lượng khả dụng đc cộng thêm số tài nguyễn phân phối
+                                        # Lượng khả dụng đc cộng thêm số tài nguyên phân phối
                                         #cho proc(i) vì proc này đã có đủ tài nguyên để thực hiện, rồi kết thúc.
                                         for k in range(R):
                                                 work[k] += alloc[p][k]
